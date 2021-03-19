@@ -1,0 +1,10 @@
+.navbar-brand{
+    background-color: teal;
+    font-family: "Times New Roman", Times, serif;
+    color: purple;
+    padding: 10px;
+}
+
+.test{
+    background-color: red;
+}
