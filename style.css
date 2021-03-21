@@ -1,7 +1,6 @@
 .navbar-brand{
     background-color: teal;
     font-family: "Times New Roman", Times, serif;
-    color: purple;
     padding: 10px;
 }
 
@@ -9,10 +8,17 @@
     background-color: white;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-}
+@media (max-width: 680px) {
+    .navbar{
+    background-color: teal;
+    }  
+    .nav-link{
+      color: white !important;
+    }
+  }
+
+@media (min-width: 680px) {
+    .navbar{
+    background-color: white;
+    }  
+  }

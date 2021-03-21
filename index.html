@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Landing</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand text-white" href="index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,12 +18,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="visualization.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="max-temperature.html">Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html#">Humidtiy</a>
+            <a class="dropdown-item" href="humidity.html#">Humidity</a>
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
           </div>
@@ -42,37 +43,36 @@
   <br>
   <div class="row">
     <!-- left side -->
-
-    <div class="col col-12 col-md-8 divbdy">
+    
+      <div class="col-lg-7 col-md-12">
         <h1 class="display-5" style= "color: teal; font-family: Times New Roman">Summary: Latitude vs. X</h1>
         <hr>
         <img src="visualizations/Fig1.png" align="left" width= "250">
         <p><br><br>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
         <p>After assembling the dataset, we used MatPlotLib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </hr>
-      </div>
-    
-    <div class="col col-12 col-md-4 divbdy">
+      </div>  
+    <div class="col-lg-5 col-md-12">
         <h3 class="display-5" style= "color: teal; font-family: Times New Roman">Visualizations</h3>
         <hr>
         <div class="row">
-          <div class="col col-3 col-md-6">
+          <div class="col-6">
             <a href="max-temperature.html"><img src="visualizations/Fig1.png" width="150" alt="Max Temperature"></a>
           </div>
-          <div class="col col-3 col-md-6">
+          <div class="col-6">
             <a href="humidity.html"><img src="visualizations/Fig2.png" width="150" alt="Humidity"></a>
           </div>
-          <div class="col col-3 col-md-6">
+          <div class="col-6">
             <a href="cloudiness.html"><img src="visualizations/Fig3.png" width="150" alt="Cloudiness"></a>
           </div>
-          <div class="col col-3 col-md-6">
+          <div class="col-6">
             <a href="wind-speed.html"><img src="visualizations/Fig4.png" width="150" alt="Wind Speed"></a>
           </div>
         </div>
-        </hr>
+      </hr>
     </div>
   </div>
-</div>
+</div>  
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
