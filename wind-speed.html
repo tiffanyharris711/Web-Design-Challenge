@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Data</title>
+  <title>Wind Speed</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand text-white" href="#">Latitude</a>
+    <a class="navbar-brand text-white" href="index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,10 +28,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#" tabindex="-1">Comparison</a>
+          <a class="nav-link active" href="comparisons.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Data</a>
+          <a class="nav-link active" href="data.html">Data</a>
         </li>
       </ul>
     </div>
@@ -39,10 +39,39 @@
 <!-- start of main body -->
 <br><br>
 <div class="container">
-    <br>
-    <div class="row">
-        
-    </div>  
+  <br>
+  <div class="row">
+    <!-- left side -->
+
+    <div class="col col-12 col-md-8 divbdy">
+        <h1 class="display-5" style= "color: teal; font-family: Times New Roman">Wind Speed</h1>
+        <hr>
+        <img src="visualizations/Fig4.png" width= "600">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum congue gravida. Cras eu venenatis turpis, sed condimentum eros. Maecenas id velit sed sem consequat ultricies.</p>
+        </hr>
+      </div>
+    
+    <div class="col col-12 col-md-4 divbdy">
+        <h3 class="display-5" style= "color: teal; font-family: Times New Roman">Visualizations</h3>
+        <hr>
+        <div class="row">
+          <div class="col col-3 col-md-6">
+            <div class="col col-3 col-md-6">
+                <a href="max-temperature.html"><img src="visualizations/Fig1.png" width="150" alt="Max Temperature"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+                <a href="humidity.html"><img src="visualizations/Fig2.png" width="150" alt="Humidity"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+                <a href="cloudiness.html"><img src="visualizations/Fig3.png" width="150" alt="Cloudiness"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+                <a href="wind-speed.html"><img src="visualizations/Fig4.png" width="150" alt="Wind Speed"></a>
+            </div>
+        </div>
+        </hr>
+    </div>
+  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
